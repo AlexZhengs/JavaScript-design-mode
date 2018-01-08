@@ -4,6 +4,7 @@
  */
 
 //  实现单例模式
+//  模式1
 var Singleton = function (name) {
     this.name = name
     this.instance = null
