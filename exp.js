@@ -1,3 +1,9 @@
 function foo() {
-  alert(); // ReferenceError: bar is not a function
+  console.log(111);
+  bar()// ReferenceError: bar is not a function
 }
+
+
+window.foo = foo;
+
+foo();
